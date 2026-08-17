@@ -36,8 +36,10 @@ function App() {
           const fadeProgress = progress / HERO_END;
           typographyRef.current.style.opacity = 1 - fadeProgress;
           typographyRef.current.style.transform = `translateY(${-fadeProgress * 60}px)`;
+          typographyRef.current.style.pointerEvents = 'auto';
         } else {
           typographyRef.current.style.opacity = 0;
+          typographyRef.current.style.pointerEvents = 'none';
         }
       }
 
