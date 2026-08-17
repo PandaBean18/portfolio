@@ -1,16 +1,47 @@
-# React + Vite
+# Raghav Bahukhandi - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A dynamic, cyberpunk-inspired interactive portfolio showcasing projects across Fullstack Web, Machine Learning, and Embedded Systems.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of a traditional static website, this portfolio uses a bespoke **Matrix Hub** as its visual centerpiece—a hardware-accelerated diffusion image grid powered by an edge AI case study (Sir Pixelot). As you scroll, the camera natively dollies through the 3D space, transitioning seamlessly from the matrix overview into detailed, telemetry-style case studies for each individual project.
 
-## React Compiler
+### Featured Projects
+- **Sir Pixelot:** Hardware-accelerated diffusion engine on a sub-$1 FPGA.
+- **Repo Recall:** Local RAG codebase intelligence engine.
+- **Agent Desktop Interface:** Autonomous agent dashboard.
+- **Cold Dino OS:** Minimalist embedded operating system.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- **Framework:** React + Vite
+- **Styling:** Vanilla CSS (Responsive, Glassmorphism, CSS Grid)
+- **Backend / Data:** Firebase Realtime Database (dynamic image streaming)
+- **Animation:** Mathematical scroll-loop engine driving HTML5 Canvas transforms
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run this project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:PandaBean18/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## License
+All code and assets are the property of Raghav Bahukhandi unless otherwise specified.
