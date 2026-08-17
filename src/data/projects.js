@@ -131,8 +131,8 @@ export const PROJECTS = [
   }
 ];
 
-export const HERO_END = 0.05;
-export const CASE_STUDY_START = 0.15;
+export const HERO_END = 0.04;
+export const CASE_STUDY_START = 0.09;
 export const PHASE_LENGTH = (1.0 - CASE_STUDY_START) / (PROJECTS.length - 1); // For projects 02-08
 
 export function getProjectScrollState(scrollProgress, projectIndex) {
