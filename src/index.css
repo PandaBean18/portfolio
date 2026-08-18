@@ -270,9 +270,11 @@ body {
   color: var(--color-cyan);
 }
 
-.nav-hamburger {
+.nav-hamburger, .nav-hamburger a {
   cursor: pointer;
   transition: color 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-hamburger:hover {
@@ -726,7 +728,7 @@ body {
   .telemetry-nav, .telemetry-bottom-bar {
     left: 5vw;
     right: 5vw;
-    padding: 0;
+    padding: 1.5rem 0;
   }
 
   .telemetry-bottom-bar {
