@@ -7,11 +7,11 @@ const SirPixelotArticle = () => {
       <div className="telemetry-nav">
         <div className="nav-brand">SIR PIXELOT</div>
         <div className="nav-links desktop-only">
-          <Link to="/"><span>[ PORTFOLIO ]</span></Link>
+          <a href="mailto:raghapb34n@gmail.com"><span>[ CONTACT ]</span></a>
           <a href="https://github.com/PandaBean18/sir-pixelot" target="_blank" rel="noreferrer"><span>[ REPO ]</span></a>
         </div>
         <div className="nav-hamburger mobile-only">
-          <Link to="/">[ PORTFOLIO ]</Link>
+          <a href="mailto:raghapb34n@gmail.com">[ CONTACT ]</a>
         </div>
       </div>
 
