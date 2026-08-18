@@ -22,7 +22,7 @@ const SirPixelotArticle = () => {
 
         <h2 className="article-section-title">The Premise: Sir Pixelot on the Edge</h2>
         <p className="article-body">
-          Sir Pixelot is an on-device AI pixel art generator. The goal was to run a neural network inference engine capable of generating 32x32 images dynamically on extreme budget hardware. We deployed this on the <strong>Shrike Lite</strong>, an ultra-affordable development board (~400rs) featuring a Raspberry Pi Pico (RP2040) and a ForgeFPGA (SLG47910V). 
+          Sir Pixelot is an on-device AI pixel art generator. The goal was to run a neural network inference engine capable of generating 32x32 images dynamically on extreme budget hardware. We deployed this on the <strong>Shrike Lite</strong>, an ultra-affordable development board (~$4) featuring a Raspberry Pi Pico (RP2040) and a ForgeFPGA (SLG47910V). 
         </p>
         <p className="article-body">
           To push the hardware boundaries, we offloaded the Multiply-Accumulate (MAC) operations from the host MCU to the FPGA. Building a functioning dual-channel MAC unit entirely out of raw LUTs (without hard DSP blocks or BRAM) on a glorified CPLD like the ForgeFPGA is legitimately difficult digital design work, and we successfully achieved an end-to-end integration: MCU -&gt; bitstream flashing -&gt; custom bus protocol -&gt; custom Verilog compute core -&gt; output reconstruction.
@@ -70,7 +70,7 @@ const SirPixelotArticle = () => {
         </ul>
         
         <p className="article-body">
-          This project successfully proved its core thesis: you can build and deploy a functional, parallelized AI inference core on a 400rs Shrike Lite board. But it also proved that in AI hardware, compute is cheap moving the data is what costs you.
+          This project successfully proved its core thesis: you can build and deploy a functional, parallelized AI inference core on a ~$4 Shrike Lite board. But it also proved that in AI hardware, compute is cheap moving the data is what costs you.
         </p>
         
         <div className="article-footer">
