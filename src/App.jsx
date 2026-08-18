@@ -180,7 +180,7 @@ function App() {
         <div className="nav-links desktop-only">
           <a href="https://github.com/PandaBean18" target="_blank" rel="noreferrer"><span>[ GITHUB ]</span></a>
           <a href="https://www.linkedin.com/in/raghav-bahukhandi/" target="_blank" rel="noreferrer"><span>[ LINKEDIN ]</span></a>
-          <a href="https://drive.google.com/file/d/1P6CUv9tak6ZvX5z3ZRI7vFahLTGfwW_Q/view?usp=sharing" target="_blank" rel="noreferrer"><span>[ RESUME ]</span></a>
+          <a href="https://drive.google.com/file/d/1h8O-YmPzeYOBgt4vELoZD8Ofh7Lg-RaE/view?usp=sharing" target="_blank" rel="noreferrer"><span>[ RESUME ]</span></a>
         </div>
         <div className="nav-hamburger mobile-only" onClick={() => setMenuOpen(!menuOpen)}>
           [ MENU ]
@@ -191,7 +191,7 @@ function App() {
         <div className="mobile-menu">
           <a href="https://github.com/PandaBean18" target="_blank" rel="noreferrer"><span>GITHUB</span></a>
           <a href="https://www.linkedin.com/in/raghav-bahukhandi/" target="_blank" rel="noreferrer"><span>LINKEDIN</span></a>
-          <a href="https://drive.google.com/file/d/1P6CUv9tak6ZvX5z3ZRI7vFahLTGfwW_Q/view?usp=sharing" target="_blank" rel="noreferrer"><span>RESUME</span></a>
+          <a href="https://drive.google.com/file/d/1h8O-YmPzeYOBgt4vELoZD8Ofh7Lg-RaE/view?usp=sharing" target="_blank" rel="noreferrer"><span>RESUME</span></a>
         </div>
       )}
 
