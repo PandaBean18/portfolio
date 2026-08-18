@@ -6,11 +6,11 @@ export const PROJECTS = [
     title: "SIR PIXELOT",
     subtitle: "Hardware-Accelerated Diffusion Engine",
     category: "EMBEDDED / FPGA",
-    summary: "Quantized INT4 generative diffusion pipeline executing directly on deterministic SRAM FPGA silicon with sub-2ms latency.",
+    summary: "Quantized INT8 generative diffusion pipeline executing directly on deterministic SRAM FPGA silicon.",
     metrics: [
       { label: "HARDWARE", value: "Shrike Lite FPGA" },
-      { label: "MEMORY", value: "246 KB SRAM" },
-      { label: "OUTPUT", value: "32×32 RGB" }
+      { label: "MEMORY", value: "264 KB SRAM" },
+      { label: "OUTPUT", value: "32x32 RGB" }
     ],
     targetAnchor: "CENTER",
     previewImage: null,
@@ -22,7 +22,7 @@ export const PROJECTS = [
     title: "REPO RECALL",
     subtitle: "Local RAG Codebase Intelligence Engine",
     category: "AI/ML / SYSTEMS",
-    summary: "Air-gapped, privacy-first developer search engine that vectorizes and links local repositories in real-time via on-device LLMs and low-latency embeddings.",
+    summary: "A local RAG that vectorizes and links local repositories by converting them into ASTs in real-time via on-device LLMs and low-latency embeddings.",
     metrics: [
       { label: "STACK", value: "Python, FastAPI" },
       { label: "DATABASE", value: "ChromaDB" },
@@ -38,7 +38,7 @@ export const PROJECTS = [
     title: "SMART DISPATCH",
     subtitle: "Edge-Native Semantic Context Agent",
     category: "EDGE AI / EXTENSIONS",
-    summary: "Client-side intent parser scanning active communication drafts with an on-device quantized ONNX model to inject relevant assets based on semantic context.",
+    summary: "Client-side intent parser scanning active email drafts with an on-device SLM quantized with ONNX to inject relevant assets (documents and links)",
     metrics: [
       { label: "STACK", value: "Python, JavaScript" },
       { label: "FRAMEWORK", value: "ONNX, PyTorch" },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     metrics: [
       { label: "TYPE", value: "4-Bit Digital Logic" },
       { label: "COMPONENTS", value: "Logic ICs, Breadboard" },
-      { label: "OPERATIONS", value: "Add, Subtract, Logic" }
+      { label: "OPERATIONS", value: "Add, And, Or, Xor" }
     ],
     targetAnchor: "BOTTOM_LEFT",
     previewImage: "https://res.cloudinary.com/dopflwqoq/image/upload/v1786995047/Screenshot_From_2026-08-17_23-09-24_qwnere.png",
@@ -70,10 +70,10 @@ export const PROJECTS = [
     title: "MUSIC PLAYER",
     subtitle: "Custom Hardware Audio System",
     category: "HARDWARE / EMBEDDED",
-    summary: "Dedicated standalone microcontroller-based audio playback unit featuring direct digital audio decoding, custom PCB routing, and tactile I/O.",
+    summary: "Dedicated standalone ESP32-based audio playback unit featuring direct digital audio decoding, custom PCB routing, and tactile I/O.",
     metrics: [
-      { label: "HARDWARE", value: "Microcontroller, Custom PCB" },
-      { label: "STORAGE", value: "SD / Flash Storage" },
+      { label: "HARDWARE", value: "ESP32, Custom PCB" },
+      { label: "STORAGE", value: "SD Card" },
       { label: "CONTROLS", value: "Rotary Encoder, Display" }
     ],
     targetAnchor: "BOTTOM_RIGHT",
@@ -118,7 +118,7 @@ export const PROJECTS = [
     title: "COLD DINO",
     subtitle: "AI Outreach Assistant",
     category: "APPLIED AI / WEB",
-    summary: "Contextual generative outreach assistant tailored for job seekers, students, and freelancers to personalize cold emails.",
+    summary: "Email personalizer tailored for job seekers, students, and freelancers to personalize cold emails. Connects directly with your Gmail account.",
     metrics: [
       { label: "STACK", value: "TypeScript, Next.js" },
       { label: "DATABASE", value: "Firebase" },
