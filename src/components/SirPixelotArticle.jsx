@@ -1,17 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const SirPixelotArticle = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = (e) => {
+    e.preventDefault();
+    navigator.clipboard.writeText('raghab34n@gmail.com');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <div className="article-page">
       <div className="telemetry-nav">
         <div className="nav-brand">SIR PIXELOT</div>
         <div className="nav-links desktop-only">
-          <a href="mailto:raghapb34n@gmail.com"><span>[ CONTACT ]</span></a>
+          <button onClick={handleCopyEmail} className="nav-copy-btn">
+            <span>[ {copied ? 'COPIED!' : 'raghab34n@gmail.com'} ]</span>
+          </button>
           <a href="https://github.com/PandaBean18/sir-pixelot" target="_blank" rel="noreferrer"><span>[ REPO ]</span></a>
         </div>
         <div className="nav-hamburger mobile-only">
-          <a href="mailto:raghapb34n@gmail.com">[ CONTACT ]</a>
+          <button onClick={handleCopyEmail} className="nav-copy-btn">
+            [ {copied ? 'COPIED!' : 'raghab34n@gmail.com'} ]
+          </button>
         </div>
       </div>
 
