@@ -231,7 +231,7 @@ function App() {
               <li><strong>RP2040 PIO/DMA:</strong> Offloading SPI communication to hardware would eliminate CPU delay loops.</li>
               <li><strong>Weight Caching:</strong> A tiny register file on the FPGA to reuse values across MAC cycles would slash bus traffic dramatically.</li>
             </ul>
-            <p>In AI hardware, compute is cheap—moving the data is what costs you.</p>
+            <p>In AI hardware, compute is cheap, moving the data is what costs you.</p>
           </div>
         </div>
       </div>
